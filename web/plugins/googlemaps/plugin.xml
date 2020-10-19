@@ -1,0 +1,27 @@
+<Options>
+
+<Metadata> 
+
+ <DropFooter> <![CDATA[ 
+    <!-- Google Maps --> 
+    <script type="text/javascript">
+      function dynamicallyLoadScript(url) {
+        var script = document.createElement('script');
+        script.src = url;
+        document.head.appendChild(script);
+      }
+	  function waitForGoogleMapsApi() {
+		dynamicallyLoadScript('%PluginsPath%googlemaps/gigatrees-maps.js');
+	  }
+	  if (typeof myPinData !== 'undefined') {
+		  dynamicallyLoadScript('%PluginsPath%googlemaps/markerclusterer.min.js');
+		  dynamicallyLoadScript('https://maps.googleapis.com/maps/api/js?v=weekly%GoogleMapsApiKey%&libraries=visualization&callback=waitForGoogleMapsApi');
+	  } else {
+		  dynamicallyLoadScript('https://maps.googleapis.com/maps/api/js?v=weekly%GoogleMapsApiKey%');
+	  }
+    </script>]]>
+ </DropFooter>
+ 
+</Metadata> 
+ 
+</Options>

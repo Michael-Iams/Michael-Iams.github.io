@@ -1,0 +1,14 @@
+<Options>
+
+<Metadata> 
+ <DropHeader> <![CDATA[ 
+    <!-- Gigatrees Styles --> 
+    <link rel="stylesheet" href="%PluginsPath%styles/styles.css">
+    <link rel="stylesheet" href="%PluginsPath%styles/blog.css">
+    <link rel="stylesheet" href="%PluginsPath%styles/pedcharts.css">
+    <link rel="stylesheet" href="%PluginsPath%styles/dnacharts.css">
+]]>
+ </DropHeader>
+</Metadata> 
+ 
+</Options>

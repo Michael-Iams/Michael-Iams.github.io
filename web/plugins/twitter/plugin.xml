@@ -1,0 +1,17 @@
+<Options>
+
+<Metadata> 
+ <DropHeader> <![CDATA[ 
+    <!-- Twitter --> 
+    <meta name="twitter:url" content="%PageURL%">
+    <meta name="twitter:site_name" content="%SiteTitle%">
+    <meta name="twitter:title" content="%PageTitle% - %SiteTitle%">
+    <meta name="twitter:author" content="%Author%">
+    <meta name="twitter:type" content="article">
+    <meta name="twitter:description" content="%Description%">
+	<meta name="twitter:image" content="%PageImage%">
+]]>
+ </DropHeader>
+</Metadata> 
+ 
+</Options>

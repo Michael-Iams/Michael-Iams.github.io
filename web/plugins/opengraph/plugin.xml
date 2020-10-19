@@ -1,0 +1,17 @@
+<Options>
+
+<Metadata> 
+ <DropHeader> <![CDATA[ 
+    <!-- Open Graph --> 
+    <meta property="og:url" content="%PageURL%">
+    <meta property="og:site_name" content="%SiteTitle%">
+    <meta property="og:title" content="%PageTitle% - %SiteTitle%">
+    <meta property="og:author" content="%Author%">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="%Description%">
+	<meta property="og:image" content="%PageImage%">
+]]>
+ </DropHeader>
+</Metadata> 
+ 
+</Options>

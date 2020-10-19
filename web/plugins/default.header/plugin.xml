@@ -1,0 +1,32 @@
+<Options>
+
+<Metadata> 
+
+ <Header> <![CDATA[%PreHeader%
+<!DOCTYPE html>
+  <head>
+%DropHeader%
+    <style>
+%DropStyles%	
+%PageStyles%	
+    </style>
+  </head>
+	
+  <body class="sidebar-mini skin-blue hold-transition">
+%DropBody%
+    <div class="wrapper">
+      <header class="main-header">
+        <nav id="navbar" class="navbar navbar-static-top" %SiteBanner%>
+          <span id="navbar-toggle"><a class="sidebar-toggle" data-toggle="push-menu" role="button"><i class="fa fa-bars"></i><span class="sr-only">Toggle navigation</span></a></span>
+		  <span id="gt-site-logo">%SiteLogo%</span>
+		  <span id="gt-site-avatar" class="pull-right">%Avatar%</span>
+		  <span id="gt-site-title">%Heading%</span>
+        </nav>
+      </header>
+%DropMenu%
+]]>
+ </Header>
+ 
+</Metadata> 
+ 
+</Options>
